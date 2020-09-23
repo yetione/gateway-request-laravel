@@ -25,5 +25,13 @@
         "psr/log": "^1.1",
         "webpatser/laravel-uuid": "^3.0",
         "yetione/php-json": "^1.2"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Yetione\\GatewayRequest\\Providers\\GatewayServiceProvider",
+            "Yetione\\GatewayRequest\\Logging\\LaravelLoggingServiceProvider"
+        ]
     }
+}
 }
