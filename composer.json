@@ -1,0 +1,29 @@
+{
+    "name": "yetione/gateway-request-laravel",
+    "description": "Gateway request module for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yeti",
+            "email": "jub45@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "Yetione\\GatewayRequest\\": "src/"}
+    },
+    "require": {
+        "illuminate/contracts": "^7",
+        "tymon/jwt-auth": "^1.0",
+        "illuminate/http": "^7",
+        "laravel/passport": "^7",
+        "illuminate/support": "^7",
+        "illuminate/log": "^7",
+        "illuminate/auth": "^7",
+        "illuminate/database": "^7",
+        "psr/log": "^1.1",
+        "webpatser/laravel-uuid": "^3.0",
+        "yetione/php-json": "^1.2"
+    }
+}
